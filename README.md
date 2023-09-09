@@ -1,6 +1,6 @@
 # Coding-Guidelines
 
-Identacion:
+Identación:
     La identación es muy importante para la legibilidad del código. A pesar de la existencia de lenguajes que permiten "errores" de identación, esta en una muy mala praxis, ya que empeora el entendimiento del codigo y conlleva a una muy mala experiencia a la hora de solucionar bugs.
 
 Nombrar variables/funciones:
@@ -14,6 +14,6 @@ Variables globales:
 
 Evitar anidaciones y reducir el uso de else:
     Anidar varios condicionales reduce la legibilidad del codigo, ademas de que muchas veces resultan ser de poca utilidad. Esto tambien se aplica a la premisa 'else', hay muchos casos en los que incluir un else no te lleva a nada, ya que si el 'if' tiene un return entonces el 'else' se ejecutara solo cuando no entre en el if, y si no utilizamos esta premisa y solo ponemos el codigo que estaría dentro, tendriamos el mismo resultado.
-    
-uso de try-catch:
+
+Uso de try-catch:
     El uso de try and catch nos ayudara a identificar los distintos tipos de errores que se puedan producir en un bloque de codigo, además, nos permitirá un manejo de errores muy completo.
